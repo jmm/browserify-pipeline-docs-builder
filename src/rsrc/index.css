@@ -1,0 +1,43 @@
+body {
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: "Arial", sans-serif;
+}
+
+#pipeline th,
+#pipeline td {
+  vertical-align: top;
+}
+
+#pipeline tbody th {
+  text-align: left;
+}
+
+
+#pipeline.table-striped > tbody:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+#pipeline tr {
+  background-color: transparent;
+}
+
+#pipeline .row-props ul {
+  margin-top: 0;
+}
+
+#pipeline .table {
+  background-color: transparent;
+}
+
+#pipeline tr.phase + tr.props > * {
+  border-top-style: none !important;
+}
+
+.row-prop .id {
+  font-family: "Courier New", monospace;
+}
+
+#pipeline-phase-defs dd {
+  margin-left: 1em;
+}

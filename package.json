@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "main": "gulpfile-guts.js",
+  "dependencies": {
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-util": "3.x",
+    "gulp-template": "3.x",
+    "react": "0.13.x",
+    "browserify": "9.x",
+    "watchify": "3.x",
+    "babelify": "6.x",
+    "del": "^1.1.0",
+    "mkdirp": "0.5.x",
+    "pathmodify": "0.2.x",
+    "readable-stream": "1.x",
+    "lodash": "3.x",
+    "lodash-deep": "1.x",
+    "through2": "0.6.x"
+  }
+}
